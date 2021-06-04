@@ -16,3 +16,4 @@ C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\Formulario
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\FormularioC#Tarefa\Formulario\obj\Debug\net5.0-windows\ref\Formulario.dll
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\FormularioC#Tarefa\Formulario\obj\Debug\net5.0-windows\Formulario.pdb
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\FormularioC#Tarefa\Formulario\obj\Debug\net5.0-windows\Formulario.genruntimeconfig.cache
+C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\FormularioC#Tarefa\Formulario\obj\Debug\net5.0-windows\Formulario.Properties.Resources.resources
