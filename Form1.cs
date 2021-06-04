@@ -173,27 +173,27 @@ namespace Formulario
             string facebook = textBox12.Text;
             string twitter = textBox13.Text;
 
-            textBox9.Text = "Andrey Moura";
-            textBox10.Text = "007";
+            this.textBox9.Text = "Andrey Moura";
+            this.textBox10.Text = "007";
             // this.data.Text = "03/08/2000";
-            textBox8.Text = "1327504800";
-            textBox7.Text = "537961048";
-            textBox6.Text = "981834795";
+            this.textBox8.Text = "1327504800";
+            this.textBox7.Text = "537961048";
+            this.textBox6.Text = "981834795";
 
-            radioButton4.Checked = true;
+            this.radioButton4.Checked = true;
 
-            textBox2.Text = "Rua Bernadino Silva";
-            textBox3.Text = "879";
-            textBox4.Text = "Liberdade";
-            textBox5.Text = "São Paulo";
-            textBox1.Text = "11999666";
+            this.textBox2.Text = "Rua Bernadino Silva";
+            this.textBox3.Text = "879";
+            this.textBox4.Text = "Liberdade";
+            this.textBox5.Text = "São Paulo";
+            this.textBox1.Text = "11999666";
 
-            textBox11.Text = "andreygouveia.05@gmail.com";
-            textBox12.Text = "andreymouragouvea";
-            textBox13.Text = "@andreymoura5";
-            checkBox1.Checked = true;
-            checkBox2.Checked = true;
-            checkBox3.Checked = true;
+            this.textBox11.Text = "andreygouveia.05@gmail.com";
+            this.textBox12.Text = "andreymouragouvea";
+            this.textBox13.Text = "@andreymoura5";
+            this.checkBox1.Checked = true;
+            this.checkBox2.Checked = true;
+            this.checkBox3.Checked = true;
         }
     }
 }
