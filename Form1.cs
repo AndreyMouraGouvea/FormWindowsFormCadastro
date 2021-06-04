@@ -46,5 +46,39 @@ namespace Formulario
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int codigo = Convert.ToInt32(textBox10);
+            string nome = textBox9.Text;
+            int rg = Convert.ToInt32(textBox8);
+            int cpf = Convert.ToInt32(textBox7); 
+            int tel = Convert.ToInt32(textBox6);
+            bool sexoM = radioButton4.Checked;
+            bool sexoF = radioButton3.Checked;
+            int cep = Convert.ToInt32(textBox1);
+            int numeroCasa = Convert.ToInt32(textBox3);
+            string logradouro = textBox2.Text;
+            string bairro = textBox4.Text;
+            string cidade = textBox5.Text;
+            string email = textBox11.Text;
+            string facebook = textBox12.Text;
+            string twitter = textBox13.Text;
+
+
+           /* if (sexoM == true)
+            {
+               MessageBox.Show("Masculino");            
+            }
+            else
+            {
+                MessageBox.Show("Feminino");
+            }*/
+
+            MessageBox.Show("Codigo: "+codigo+"\r\nNome: "+nome+"\r\nRG: "+rg+ "\r\nCPF: "+cpf+
+                "\r\nTEL: "+tel+ "\r\nSexo: "+sexoM+sexoF+ "\r\nCEP: "+cep+ "\r\nNumero: "+numeroCasa+
+                "\r\nLogradouro: "+logradouro+ "\r\nBairro: "+bairro+ "\r\nCidade: "+cidade+ "\r\nEmail: "+email+
+                "\r\nFacebook: "+facebook+ "\r\nTwitter: "+twitter+ "\r\n");
+        }
     }
 }
