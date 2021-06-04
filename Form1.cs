@@ -49,15 +49,15 @@ namespace Formulario
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int codigo = Convert.ToInt32(textBox10);
+            int codigo = Convert.ToInt32(textBox10.Text);
             string nome = textBox9.Text;
-            int rg = Convert.ToInt32(textBox8);
-            int cpf = Convert.ToInt32(textBox7); 
-            int tel = Convert.ToInt32(textBox6);
+            int rg = Convert.ToInt32(textBox8.Text);
+            int cpf = Convert.ToInt32(textBox7.Text); 
+            int tel = Convert.ToInt32(textBox6.Text);
             bool sexoM = radioButton4.Checked;
             bool sexoF = radioButton3.Checked;
-            int cep = Convert.ToInt32(textBox1);
-            int numeroCasa = Convert.ToInt32(textBox3);
+            int cep = Convert.ToInt32(textBox1.Text);
+            int numeroCasa = Convert.ToInt32(textBox3.Text);
             string logradouro = textBox2.Text;
             string bairro = textBox4.Text;
             string cidade = textBox5.Text;
@@ -65,20 +65,30 @@ namespace Formulario
             string facebook = textBox12.Text;
             string twitter = textBox13.Text;
 
-
-           /* if (sexoM == true)
+            
+            if (sexoM == true)
             {
                MessageBox.Show("Masculino");            
             }
             else
             {
                 MessageBox.Show("Feminino");
-            }*/
+            }
 
             MessageBox.Show("Codigo: "+codigo+"\r\nNome: "+nome+"\r\nRG: "+rg+ "\r\nCPF: "+cpf+
-                "\r\nTEL: "+tel+ "\r\nSexo: "+sexoM+sexoF+ "\r\nCEP: "+cep+ "\r\nNumero: "+numeroCasa+
+                "\r\nTEL: "+tel+ "\r\nSexo M: "+sexoM+ "\r\nSexo F: "+sexoF+"\r\nCEP: " +cep+ "\r\nNumero: "+numeroCasa+
                 "\r\nLogradouro: "+logradouro+ "\r\nBairro: "+bairro+ "\r\nCidade: "+cidade+ "\r\nEmail: "+email+
                 "\r\nFacebook: "+facebook+ "\r\nTwitter: "+twitter+ "\r\n");
+
+            /*if (sexoM == true)
+            {
+                MessageBox.Show("Masculino");
+            }
+            else
+            {
+                MessageBox.Show("Feminino");
+            }
+            */
         }
     }
 }
