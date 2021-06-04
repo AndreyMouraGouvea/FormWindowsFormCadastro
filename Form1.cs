@@ -175,7 +175,6 @@ namespace Formulario
 
             this.textBox9.Text = "Andrey Moura";
             this.textBox10.Text = "007";
-            // this.data.Text = "03/08/2000";
             this.textBox8.Text = "1327504800";
             this.textBox7.Text = "537961048";
             this.textBox6.Text = "981834795";
