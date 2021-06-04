@@ -154,5 +154,46 @@ namespace Formulario
         {
             pictureBox1.Image = null;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int codigo = Convert.ToInt32(textBox10.Text);
+            string nome = textBox9.Text;
+            int rg = Convert.ToInt32(textBox8.Text);
+            int cpf = Convert.ToInt32(textBox7.Text);
+            int tel = Convert.ToInt32(textBox6.Text);
+            bool sexoM = radioButton4.Checked;
+            bool sexoF = radioButton3.Checked;
+            int cep = Convert.ToInt32(textBox1.Text);
+            int numeroCasa = Convert.ToInt32(textBox3.Text);
+            string logradouro = textBox2.Text;
+            string bairro = textBox4.Text;
+            string cidade = textBox5.Text;
+            string email = textBox11.Text;
+            string facebook = textBox12.Text;
+            string twitter = textBox13.Text;
+
+            textBox9.Text = "Andrey Moura";
+            textBox10.Text = "007";
+            // this.data.Text = "03/08/2000";
+            textBox8.Text = "1327504800";
+            textBox7.Text = "537961048";
+            textBox6.Text = "981834795";
+
+            radioButton4.Checked = true;
+
+            textBox2.Text = "Rua Bernadino Silva";
+            textBox3.Text = "879";
+            textBox4.Text = "Liberdade";
+            textBox5.Text = "São Paulo";
+            textBox1.Text = "11999666";
+
+            textBox11.Text = "andreygouveia.05@gmail.com";
+            textBox12.Text = "andreymouragouvea";
+            textBox13.Text = "@andreymoura5";
+            checkBox1.Checked = true;
+            checkBox2.Checked = true;
+            checkBox3.Checked = true;
+        }
     }
 }
