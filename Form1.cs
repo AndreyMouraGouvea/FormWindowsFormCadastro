@@ -105,5 +105,49 @@ namespace Formulario
                 pictureBox1.ImageLocation = file.FileName;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = null;
+            limparTextBox(groupBox1.Controls);
+            limparTextBox(groupBox2.Controls);
+            limparTextBox(groupBox3.Controls);
+            limparTextBox(pictureBox1.Controls);
+
+        }
+        private void limparTextBox(Control.ControlCollection controles)
+        {
+            foreach (Control ctrl in controles)
+            {
+                if (ctrl is TextBox)
+                {
+                    ((TextBox)(ctrl)).Text = null;
+                }
+            }
+
+            foreach (Control ctrl in controles)
+            {
+                if (ctrl is CheckBox)
+                {
+                    ((CheckBox)(ctrl)).Checked = false;
+                }
+            }
+
+            foreach (Control ctrl in controles)
+            {
+                if (ctrl is PictureBox)
+                {
+                    ((PictureBox)(ctrl)).Image = null;
+                }
+            }
+
+            foreach (Control ctrl in controles)
+            {
+                if (ctrl is DateTimePicker)
+                {
+                    ((DateTimePicker)(ctrl)).Text = null;
+                }
+            }
+        }
     }
 }
