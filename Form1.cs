@@ -106,15 +106,6 @@ namespace Formulario
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Image = null;
-            limparTextBox(groupBox1.Controls);
-            limparTextBox(groupBox2.Controls);
-            limparTextBox(groupBox3.Controls);
-            limparTextBox(pictureBox1.Controls);
-
-        }
         private void limparTextBox(Control.ControlCollection controles)
         {
             foreach (Control ctrl in controles)
@@ -148,6 +139,15 @@ namespace Formulario
                     ((DateTimePicker)(ctrl)).Text = null;
                 }
             }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = null;
+            limparTextBox(groupBox1.Controls);
+            limparTextBox(groupBox2.Controls);
+            limparTextBox(groupBox3.Controls);
+            limparTextBox(pictureBox1.Controls);
+
         }
     }
 }
