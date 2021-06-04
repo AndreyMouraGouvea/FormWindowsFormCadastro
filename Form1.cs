@@ -149,5 +149,10 @@ namespace Formulario
             limparTextBox(pictureBox1.Controls);
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = null;
+        }
     }
 }

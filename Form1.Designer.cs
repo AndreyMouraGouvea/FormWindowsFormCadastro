@@ -69,6 +69,7 @@ namespace Formulario
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -436,7 +437,7 @@ namespace Formulario
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(711, 227);
+            this.button3.Location = new System.Drawing.Point(649, 227);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 59);
             this.button3.TabIndex = 21;
@@ -454,11 +455,22 @@ namespace Formulario
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(756, 227);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 59);
+            this.button5.TabIndex = 23;
+            this.button5.Text = "Remover Imagem";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 650);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
@@ -523,6 +535,7 @@ namespace Formulario
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 
